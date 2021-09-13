@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(56, 75, 95);
+    color: rgb(202, 204, 224);
+    /* white-space: nowrap; */
+}
+header{
+    margin-bottom: 10px;
+    padding-top: 8px;   
+    background-size: inherit;
+    background-image: url(TT.png);
+    background-position-x: -205px;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border:3px solid  rgb(58, 83, 105);
+   
+}
+a{
+    color: rgb(202, 204, 224);
+}
+.header-link{
+    display: block;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.img{
+    border-radius: 80%;
+    border: 5px solid rgb(68, 89, 121);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.inicial{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+p{
+    margin: 17px;
+}
+h1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    display: inline-block;
+}
+ul li{
+    font-size: 18px;
+
+}
+h2{
+    font-size: 28px;
+    margin: 30px;
+    margin-left: 50px;
+    text-decoration: underline;
+    color: rgb(134, 141, 211);
+    font-weight: bold;
+
+}
+h3{
+    display: inline-block;
+    font-family: 'Arial', 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(214, 216, 236);
+    
+}
+.links-social{
+    margin-right: 8px;
+}
+/* p{
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+} */
+.list li{
+    margin-left: 50px;
+    margin-bottom: 8px;
+    
+}
+
+.list{
+    display: inline-block;
+    width: 20%;
+    /* border: 5px solid red; */
+    overflow-wrap: break-word;
+}
+nav{
+    vertical-align: top;
+    margin-left: auto;    
+    display: inline-block;
+    /* border: 5px solid red; */
+    overflow-wrap: break-word;
+}
+article{
+    vertical-align: top;
+    margin-right: 28px;
+    width: 55%;
+    display: inline-block;
+    text-align: justify;
+    border: 10px ridge rgb(70, 98, 128); 
+    overflow-wrap: break-word;
+    background-color: rgb(70, 98, 128);
+    padding: 7px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(51, 70, 90);
+}
+
